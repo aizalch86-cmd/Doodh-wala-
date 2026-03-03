@@ -227,8 +227,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
 
-     if ((event.body.toLowerCase() == "kuttiya") || (event.body.toLowerCase() == "kutta")) {
-       return api.sendMessage("Same to you dor Fetty muh🤣🤣🤣👌", threadID);
+     if ((event.body.toLowerCase() == "Sidra") || (event.body.toLowerCase() == "Bhai")) {
+       return api.sendMessage("Sidra bhai welcome aap ka👌", threadID);
      };
 
      if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
@@ -541,14 +541,14 @@ if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
   var msg = {
     body: `💞👉${name} 💞👈
 
-❖•S━━━━━💞━━━━━A•❖,
+❖•S━━━━━🩷━━━━━K•❖,
 
 
 ${rand}                                        
 
-𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵 𝑲 ❥||ㅎ
+𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝SHARUKH KHAN ❥||ㅎ
 
-❖•S━━━━━💞━━━━━A•❖`
+❖•S━━━━━🩷━━━━━k•❖`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
