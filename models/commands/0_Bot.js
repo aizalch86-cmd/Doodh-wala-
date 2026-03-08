@@ -185,9 +185,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me Shaan ki setting hu", threadID);
      };
 
-     if ((event.body.toLowerCase() == "sadia") || (event.body.toLowerCase() == "Sadia") || (event.body.toLowerCase() == "Sadia adeel") || (event.body.toLowerCase() == "Saida")) {
-       return api.sendMessage( "Yai toh mere Boss Falana Ki bhena hai 🫣🫡 Assalamualaikum 
-Boss Busy Hai unki or se sis . ",threadID);
+     if ((event.body.toLowerCase() == "Sadi") || (event.body.toLowerCase() == "Sadia") || (event.body.toLowerCase() == "Sadia adeel") || (event.body.toLowerCase() == "Saida")) {
+       return api.sendMessage( "Yai toh mere Boss Falana Ki bhena hai 🫣🫡 Assalamualaikum. ",threadID);
 
 
      };
