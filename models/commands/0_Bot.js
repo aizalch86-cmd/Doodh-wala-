@@ -185,14 +185,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "meri setting kahan hai") || (event.body.toLowerCase() == "meri gf kaha hai")) {     return api.sendMessage("️️️mujhy nahi pata me Shaan ki setting hu", threadID);
      };
 
-     if ((event.body.toLowerCase() == "Sadia") || (event.body.toLowerCase() == "sada") || (event.body.toLowerCase() == "sadai") || (event.body.toLowerCase() == "saida")) {
-       return api.sendMessage( "Yai toh mere Boss Falana Ki hena hai 🫣. ",threadID);
+     if ((event.body.toLowerCase() == "sada") || (event.body.toLowerCase() == "Sadia") || (event.body.toLowerCase() == "Sadia adeel") || (event.body.toLowerCase() == "Saida")) {
+       return api.sendMessage( "Yai toh mere Boss Falana Ki bhena hai 🫣🫡 Assalamualaikum 
+Boss Busy Hai unki or se sis . ",threadID);
 
 
      };
 
      if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "bot ka malik")) {
-       return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ ༻☞[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟Falana 🎸  ☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Falana. ☜ ༺༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:-https://m.facebook.com/falana61810/ 𝙈𝙍.Falana 345☞    his insta id @Falana345 ☜ ༺༒ ༒", threadID);
+       return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ ༻☞[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟Falana 🎸  ☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Falana. ☜ ༺༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒ 
+:-https://m.facebook.com/falana61810/ 𝙈𝙍.Falana 345☞    his insta id @Falana345 ☜ ༺༒ ༒", threadID);
      };
 
      if ((event.body.toLowerCase() == "tera Malik kon hai") || (event.body.toLowerCase() == "is bot ka malik kon hai")) {
@@ -541,14 +543,14 @@ if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
   var msg = {
     body: `💞👉${name} 💞👈
 
-❖•S━━━━━🩷━━━━━K•❖,
+❖•F━━━━━🍃━━━━━F•❖,
 
 
 ${rand}                                        
 
 𝑪𝒓𝒆𝒅𝒊𝒕𝒔:𒁍≛⃝SHARUKH KHAN ❥||ㅎ
 
-❖•S━━━━━🩷━━━━━k•❖`
+❖•F━━━━━🍃━━━━━F•❖`
   }
   return api.sendMessage(msg, threadID, messageID);
 };
