@@ -145,7 +145,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 
 
 
-     if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "bc")) {
+     if ((event.body.toLowerCase() == "bc") || (event.body.toLowerCase() == "noor")) {
        return api.sendMessage("Sharam karo asi bat na Karo 🙏 ", threadID);
      };
     if ((event.body.toLowerCase() == "kis kar")) {return api.sendMessage(" ️sab dekh rahe hai wrna bhot kiss deti🙈 ", threadID);
